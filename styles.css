@@ -1,0 +1,252 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(230, 185, 222);
+  }
+  
+
+
+h1 {
+  display: flex;
+  color: rgb(73, 66, 228);
+  
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+   
+     /* Adjust the width as needed */
+    
+}
+.row {
+    display: flex;
+  }
+  
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(73, 66, 228);
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.Photo
+{
+    width:100px ;
+    height: 100px;
+}
+
+ 
+.Photo1
+{
+    width:100px ;
+    height: 100px;
+}
+.Photo2
+{
+    width:100px ;
+    height: 100px;
+}
+.Photo3
+{
+    width:100px ;
+    height: 100px;
+}
+.Photo4
+{
+    width:100px ;
+    height: 100px;
+}
+.Photo5
+{
+    width:100px ;
+    height: 100px;
+}
+.Photo6
+{
+    width:100px ;
+    height: 100px;
+}
+.Photo7
+{
+    width:100px ;
+    height: 100px;
+}
+.Photo8
+{
+    width:100px ;
+    height: 100px;
+}
+.Photo9
+{
+    width:100px ;
+    height: 100px;
+}
+
+.btn1
+{
+  background-color:   rgb(73, 66, 228);
+  border: 0px;
+  background-image: url('images/empty.png');
+  width:100px ;
+    height: 100px;
+}
+
+.btn2
+{
+  background-color:   rgb(73, 66, 228);
+  border: 0px;
+  background-image: url('images/empty.png');
+  width:100px ;
+    height: 100px;
+}
+.btn3
+{
+  background-color:   rgb(73, 66, 228);
+  border: 0px;
+  background-image: url('images/empty.png');
+  width:100px ;
+    height: 100px;
+}
+.btn4
+{
+  background-color:   rgb(73, 66, 228);
+  border: 0px;
+  background-image: url('images/empty.png');
+  width:100px ;
+    height: 100px;
+}
+.btn5
+{
+  background-color:   rgb(73, 66, 228);
+  border: 0px;
+  background-image: url('images/empty.png');
+  width:100px ;
+    height: 100px;
+}
+.btn6
+{
+  background-color:   rgb(73, 66, 228);
+  border: 0px;
+  background-image: url('images/empty.png');
+  width:100px ;
+    height: 100px;
+}
+.btn7
+{
+  background-color:   rgb(73, 66, 228);
+  border: 0px;
+  background-image: url('images/empty.png');
+  width:100px ;
+    height: 100px;
+}
+.btn8
+{
+  background-color:   rgb(73, 66, 228);
+  border: 0px;
+  background-image: url('images/empty.png');
+  width:100px ;
+    height: 100px;
+}
+.btn9
+{
+  background-color:   rgb(73, 66, 228);
+  border: 0px;
+  background-image: url('images/empty.png');
+  width:100px ;
+ height: 100px;
+}
+.buttondiv{
+  margin: 100px;
+}
+.custom-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(73, 66, 228);  /* Light purple color */
+  color: #fff; /* White text color */
+  border: solid rgb(73, 66, 228); ;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: rgb(230, 185, 222);/* Dark blue color on hover */
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(230, 185, 222);
+  }
+
+  h1 {
+    color: rgb(73, 66, 228);
+  }
+
+  .container {
+    width: 90%;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    text-align: center;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .cell {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px;
+  }
+
+  .Photo,
+  .Photo1,
+  .Photo2,
+  .Photo3,
+  .Photo4,
+  .Photo5,
+  .Photo6,
+  .Photo7,
+  .Photo8,
+  .Photo9 {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4,
+  .btn5,
+  .btn6,
+  .btn7,
+  .btn8,
+  .btn9 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(73, 66, 228);
+    border: 0;
+    background-image: url('images/empty.png');
+  }
+
+  .buttondiv {
+    margin: 20px 0;
+  }
+
+  .custom-button {
+    width: 100%;
+    padding: 10px;
+  }
+}
