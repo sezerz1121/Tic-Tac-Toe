@@ -22,14 +22,14 @@ var winner =0;
                 var Photo =document.querySelectorAll(".Photo")[i].addEventListener("click",function O()
                 {
                     
-                    if(count%2===0)
+                    if(count%2===0&&winner===0)
                     {
                         this.setAttribute("src","images/X.png");
                     count++;
                     console.log(count);
                 
                     }
-                    else if(count%2!=0)
+                    else if(count%2!=0&&winner===0)
                     {
                         this.setAttribute("src","images/O.png");
                         count++;
@@ -61,6 +61,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                         
@@ -72,6 +73,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
 
@@ -83,6 +85,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -92,6 +95,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -101,6 +105,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -110,6 +115,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -119,6 +125,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -128,6 +135,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -138,6 +146,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -147,6 +156,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -156,6 +166,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -166,6 +177,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -175,6 +187,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -184,6 +197,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -193,6 +207,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
@@ -202,6 +217,7 @@ var winner =0;
                         setTimeout(function(){
                             window.location.reload();
                          }, 2000);
+                         winner=1;
 
                         
                     }
